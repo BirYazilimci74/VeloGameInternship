@@ -48,6 +48,14 @@ namespace Library_Management_System
         public void AddBook(String title, String author, long ISBN, int numberOfCopy, int borrowedCopy)
         {
             Book newBook = new Book(title, author, ISBN, numberOfCopy, borrowedCopy);
+            foreach (Book book in getInstance().books)
+            {
+                if ((book.Title == newBook.Title) && (book.Author == newBook.Author) && (book.ISBN == newBook.ISBN))
+                {
+                    MessageBox.Show("This book is already in the Library", "Warning", MessageBoxButtons.OK);
+                    return;
+                }
+            }
             getInstance().books.Add(newBook);
         }
 
@@ -83,7 +91,20 @@ namespace Library_Management_System
             listView.Items.Clear();
             foreach (Book book in books)
             {
-                if (book.BorrowedBookInfo().Contains(strToSearch))
+                if (book.BorrowedBookInfo().ToLower().Contains(strToSearch.ToLower()))
+                {
+                    string[] proporties = book.BorrowedBookInfo().Split('=');
+                    listView.Items.Add(new ListViewItem(proporties));
+                }
+            }
+        }
+
+        public void SearchOverdue(List<Book> books, ListView listView)
+        {
+            listView.Items.Clear();
+            foreach (Book book in books)
+            {
+                if (book.returnTime.CompareTo(DateTime.Now) < 0)
                 {
                     string[] proporties = book.BorrowedBookInfo().Split('=');
                     listView.Items.Add(new ListViewItem(proporties));

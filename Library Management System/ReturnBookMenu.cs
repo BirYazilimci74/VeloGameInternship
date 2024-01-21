@@ -40,10 +40,7 @@ namespace Library_Management_System
                 }
                 txtReturnError.Text = "";
             }
-            else
-            {
-                txtReturnError.Text = "Please select a book to return!!";
-            }
+            else { txtReturnError.Text = "Please select a book to return!!"; }
 
         }
 
@@ -71,5 +68,9 @@ namespace Library_Management_System
             else { fo.PrintFile(myLibraryFile, listViewBorrow); }
         }
 
+        private void btnOverDue_Click(object sender, EventArgs e)
+        {
+            Library.getInstance().SearchOverdue(Library.getInstance().myBooks,listViewBorrow);
+        }
     }
 }

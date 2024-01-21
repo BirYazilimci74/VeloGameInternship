@@ -47,12 +47,13 @@
             this.bISBN = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.BorrowedTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ReturnTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnOverDue = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSearch.Location = new System.Drawing.Point(1041, 93);
+            this.btnSearch.Location = new System.Drawing.Point(1071, 93);
             this.btnSearch.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(84, 27);
@@ -77,7 +78,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(363, 23);
+            this.label4.Location = new System.Drawing.Point(489, 23);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(223, 45);
             this.label4.TabIndex = 23;
@@ -89,7 +90,7 @@
             this.txtSearch.Location = new System.Drawing.Point(678, 93);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(361, 28);
+            this.txtSearch.Size = new System.Drawing.Size(390, 28);
             this.txtSearch.TabIndex = 29;
             // 
             // txtSearchBorrowed
@@ -98,13 +99,13 @@
             this.txtSearchBorrowed.Location = new System.Drawing.Point(24, 93);
             this.txtSearchBorrowed.Margin = new System.Windows.Forms.Padding(4);
             this.txtSearchBorrowed.Name = "txtSearchBorrowed";
-            this.txtSearchBorrowed.Size = new System.Drawing.Size(494, 28);
+            this.txtSearchBorrowed.Size = new System.Drawing.Size(375, 28);
             this.txtSearchBorrowed.TabIndex = 32;
             // 
             // btnSearchMyBook
             // 
             this.btnSearchMyBook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSearchMyBook.Location = new System.Drawing.Point(526, 92);
+            this.btnSearchMyBook.Location = new System.Drawing.Point(404, 93);
             this.btnSearchMyBook.Margin = new System.Windows.Forms.Padding(4);
             this.btnSearchMyBook.Name = "btnSearchMyBook";
             this.btnSearchMyBook.Size = new System.Drawing.Size(84, 28);
@@ -215,11 +216,24 @@
             this.ReturnTime.Text = "Return Time";
             this.ReturnTime.Width = 130;
             // 
+            // btnOverDue
+            // 
+            this.btnOverDue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnOverDue.Location = new System.Drawing.Point(493, 92);
+            this.btnOverDue.Margin = new System.Windows.Forms.Padding(4);
+            this.btnOverDue.Name = "btnOverDue";
+            this.btnOverDue.Size = new System.Drawing.Size(117, 28);
+            this.btnOverDue.TabIndex = 42;
+            this.btnOverDue.Text = "List Overdue";
+            this.btnOverDue.UseVisualStyleBackColor = true;
+            this.btnOverDue.Click += new System.EventHandler(this.btnOverDue_Click);
+            // 
             // ReturnBookMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 673);
+            this.Controls.Add(this.btnOverDue);
             this.Controls.Add(this.listViewBorrow);
             this.Controls.Add(this.listViewLibrary);
             this.Controls.Add(this.txtReturnError);
@@ -261,5 +275,6 @@
         private System.Windows.Forms.ColumnHeader bISBN;
         private System.Windows.Forms.ColumnHeader BorrowedTime;
         private System.Windows.Forms.ColumnHeader ReturnTime;
+        private System.Windows.Forms.Button btnOverDue;
     }
 }

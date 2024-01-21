@@ -32,7 +32,7 @@ namespace Library_Management_System
             this.Author = author;
             this.ISBN = ISBN;
             this.borrowedTime = borrowedTime;
-            this.returnTime = borrowedTime.AddHours(1);
+            this.returnTime = borrowedTime.AddMinutes(1);
         }
 
         public String BookInfo()

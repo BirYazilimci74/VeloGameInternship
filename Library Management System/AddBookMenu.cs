@@ -33,6 +33,7 @@ namespace Library_Management_System
                 Library.getInstance().AddBook(txtBookTitle.Text, txtBookAuthor.Text, ISBN, numberOfCopy, borrowedCopy);
                 fo.PrintToFile(dataFilePath, Library.getInstance().books);
                 fo.PrintFile(dataFilePath, listView1);
+                ClearTextBoxes();
             }
         }
 
@@ -89,6 +90,13 @@ namespace Library_Management_System
             {
                 txtNOCerror.Text = "";
             }
+        }
+        private void ClearTextBoxes()
+        {
+            txtBookAuthor.Text = string.Empty;
+            txtBookTitle.Text = string.Empty;
+            mskTxtISBN.Text = string.Empty;
+            txtNumberOfCopy.Text = string.Empty;
         }
 
     }
