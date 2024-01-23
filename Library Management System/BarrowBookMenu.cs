@@ -41,49 +41,22 @@ namespace Library_Management_System
                 txtBorrowError.Text = "Please select a book to borrow!!";
             }
 
-
-            /*
-            if (listBooks.SelectedItem != null)
-            {
-                string bookName = listBooks.SelectedItem.ToString().Substring(0, listBooks.SelectedItem.ToString().IndexOf("="));
-                
-                foreach (Book book in Library.getInstance().books)
-                {
-                    if (bookName.Equals(book.Title))
-                    {
-                        Library.getInstance().BarrowBook(book);
-                        fo.PrintToFile(dataFilePath, Library.getInstance().books);
-                        fo.PrintFile(dataFilePath, listBooks);
-
-                        fo.PrintBorrowedToFile(myLibraryFile, Library.getInstance().myBooks);
-                    }
-                }
-                txtBorrowError.Text = "";
-            }
-            else
-            {
-                txtBorrowError.Text = "Please select a book to borrow!!";
-            }*/
-            
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
             if (!txtSearch.Text.Equals(string.Empty))
             {
-                //Library.getInstance().SearchBook(txtSearch.Text, Library.getInstance().books, listBooks);
                 Library.getInstance().SearchBook(txtSearch.Text, Library.getInstance().books, listView1);
             }
             else
             {
-                //fo.PrintFile(dataFilePath, listBooks);
                 fo.PrintFile(dataFilePath, listView1);
             }
         }
 
         private void BarrowBookMenu_Load(object sender, EventArgs e)
         {
-            //fo.PrintFile(dataFilePath, listBooks);
             fo.PrintFile(dataFilePath, listView1);
         }
 
