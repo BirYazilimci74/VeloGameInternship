@@ -8,7 +8,6 @@ public class UIManager : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text highScoreText;
     public TMP_Text inGameScoreText;
-    public GameObject startScreen;
     public GameObject gameOverScreen;
 
     public static UIManager Instance {get; private set;}

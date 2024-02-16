@@ -28,10 +28,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        UIManager.Instance.startScreen.SetActive(true);
-        UIManager.Instance.gameOverScreen.SetActive(false);
-        canPlay = false;
+        UIManager.Instance?.gameOverScreen?.SetActive(false);
+        canPlay = true;
         highScore = PlayerPrefs.GetInt("HighScore");
+        AnimationController.Instance?.RunAnimation(true);
     }
 
     private void Update()
@@ -52,28 +52,27 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        SceneManager.LoadScene(0);
         canPlay = true;
         score = 0;
         time = Time.time;
-        UIManager.Instance.startScreen.SetActive(false);
-        AnimationController.Instance.RunAnimation(true);
+        AnimationController.Instance?.RunAnimation(true);
     }
 
     public void FinishGame()
     {
-        UIManager.Instance.gameOverScreen.SetActive(true);
+        UIManager.Instance?.gameOverScreen?.SetActive(true);
         canPlay = false;
         if (score > highScore)
         {
             highScore = score;
         }
         PlayerPrefs.SetInt("HighScore",highScore);
-        UIManager.Instance.DisplayScores();
+        UIManager.Instance?.DisplayScores();
     }
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(0);
         StartGame();
     }
 }
