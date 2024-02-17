@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         canPlay = true;
         score = 0;
         time = Time.time;
