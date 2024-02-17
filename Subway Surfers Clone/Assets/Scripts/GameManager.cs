@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private float time;
-    private int maxSpeed = 50;
+    private int maxSpeed = 30;
 
     public float obstacleSpawnDelay;
     public float speedIncreasment;
