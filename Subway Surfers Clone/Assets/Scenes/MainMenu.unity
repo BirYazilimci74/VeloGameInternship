@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12458,10 +12458,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.20083083
   m_Height: 1.857179
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9103916, z: 0}
+  m_Center: {x: -1.7020418e-10, y: 0.9103916, z: 0.034193907}
 --- !u!1 &8014024826527624043
 GameObject:
   m_ObjectHideFlags: 0

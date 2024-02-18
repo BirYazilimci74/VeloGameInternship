@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2071615762939130748}
   - component: {fileID: 2021599467309325838}
   - component: {fileID: 2266488807787388013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonPrototype_Prop_Cone_01
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: dce3a789f595f224a85f5cf4f2e6667d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,9 +112,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 114
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &2082969175609179476
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 2071615761429468968}
   - component: {fileID: 2021599468416924250}
   - component: {fileID: 6907196800821508737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonPrototype_Prop_Cone_01 (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: dce3a789f595f224a85f5cf4f2e6667d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,9 +227,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 114
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &2082969176089648925
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 2071615760969905505}
   - component: {fileID: 2021599467957344275}
   - component: {fileID: 7174451833313380452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonPrototype_Prop_Cone_01 (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: dce3a789f595f224a85f5cf4f2e6667d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,9 +342,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 114
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &2083972107286646710
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 2901424909483497946}
   - component: {fileID: 938684266259551082}
   - component: {fileID: -6078552037801959854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle 1
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -408,9 +408,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 118
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &-6078552037801959854
 MonoBehaviour:
   m_ObjectHideFlags: 0

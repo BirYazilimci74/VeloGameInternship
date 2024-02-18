@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 486404527636689139}
   - component: {fileID: 466091209047488179}
   - component: {fileID: 5422885503616202240}
+  - component: {fileID: 7512815544150065011}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (3)
   m_TagString: Coin
@@ -94,7 +95,7 @@ MeshCollider:
   m_GameObject: {fileID: 473403342125418501}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -111,6 +112,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &7512815544150065011
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473403342125418501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &501993002219175730
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +138,7 @@ GameObject:
   - component: {fileID: 479277643426039748}
   - component: {fileID: 437220048238150020}
   - component: {fileID: 7257700112882934115}
+  - component: {fileID: 9216195451956749094}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (2)
   m_TagString: Coin
@@ -205,7 +220,7 @@ MeshCollider:
   m_GameObject: {fileID: 501993002219175730}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -222,6 +237,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &9216195451956749094
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501993002219175730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &577388694012117994
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +263,7 @@ GameObject:
   - component: {fileID: 599709335783226140}
   - component: {fileID: 641047567165046108}
   - component: {fileID: 7245974860962546293}
+  - component: {fileID: 554787071829038820}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (4)
   m_TagString: Coin
@@ -316,7 +345,7 @@ MeshCollider:
   m_GameObject: {fileID: 577388694012117994}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -333,6 +362,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &554787071829038820
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577388694012117994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &1285365939836299004
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,9 +428,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 118
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &-6105836955597923331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -414,6 +456,8 @@ GameObject:
   - component: {fileID: 2523547123147343045}
   - component: {fileID: 2572291613140189829}
   - component: {fileID: 5960159100480210759}
+  - component: {fileID: 6710965652807960864}
+  - component: {fileID: 2120612171933151405}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01
   m_TagString: Coin
@@ -495,7 +539,7 @@ MeshCollider:
   m_GameObject: {fileID: 2545839180837780531}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -512,6 +556,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &6710965652807960864
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545839180837780531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
+--- !u!135 &2120612171933151405
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2545839180837780531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &2626863895641889506
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +595,7 @@ GameObject:
   - component: {fileID: 2604678486286918164}
   - component: {fileID: 2635239527855416404}
   - component: {fileID: 233434908547415297}
+  - component: {fileID: 8749238779220525417}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (5)
   m_TagString: Coin
@@ -606,7 +677,7 @@ MeshCollider:
   m_GameObject: {fileID: 2626863895641889506}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -623,6 +694,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &8749238779220525417
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626863895641889506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &6930478667169133726
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +720,7 @@ GameObject:
   - component: {fileID: 6953507397654187112}
   - component: {fileID: 6973893326691011112}
   - component: {fileID: 1208550011180048211}
+  - component: {fileID: 7124278005903135184}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (6)
   m_TagString: Coin
@@ -717,7 +802,7 @@ MeshCollider:
   m_GameObject: {fileID: 6930478667169133726}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -734,6 +819,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &7124278005903135184
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6930478667169133726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}
 --- !u!1 &7330645769601700738
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +845,7 @@ GameObject:
   - component: {fileID: 7343819577230830452}
   - component: {fileID: 7304154510413212980}
   - component: {fileID: 6793109217457835254}
+  - component: {fileID: 6662308464684248440}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Icon_Coin_01 (1)
   m_TagString: Coin
@@ -828,7 +927,7 @@ MeshCollider:
   m_GameObject: {fileID: 7330645769601700738}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
@@ -845,3 +944,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724c2f23c7f307849aed408f1d007372, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &6662308464684248440
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7330645769601700738}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2941193
+  m_Center: {x: -0.000000014901161, y: 0, z: 0}

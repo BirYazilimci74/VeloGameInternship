@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2199912451333674575}
   - component: {fileID: 3014140486613724023}
   - component: {fileID: -359755086725884010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,9 +47,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 118
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &-359755086725884010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +62,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72136724f511c7843bce70fda650223d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
 --- !u!1 &7418913300702469493
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4881147518201332352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EmptyObtacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

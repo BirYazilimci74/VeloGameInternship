@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5146135134598017155}
   - component: {fileID: 6337555188200840882}
   - component: {fileID: -4035760076636421017}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,9 +47,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 118
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &-4035760076636421017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +62,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72136724f511c7843bce70fda650223d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
 --- !u!1 &6658682175875755535
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,7 +74,7 @@ GameObject:
   - component: {fileID: 6637089214849080083}
   - component: {fileID: 6645069238754580789}
   - component: {fileID: 6741564527495625241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Wheel_fl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +124,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: 40b5b1cfe73d4444eb7e750bd8e3f90a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -171,7 +170,7 @@ GameObject:
   - component: {fileID: 6657050667135909297}
   - component: {fileID: 6635122822627979671}
   - component: {fileID: 6646959664198609611}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Plates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +254,7 @@ GameObject:
   - component: {fileID: 6636406324204200589}
   - component: {fileID: 6647056993980436159}
   - component: {fileID: 6740831563470490579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Wheel_rr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +304,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: 40b5b1cfe73d4444eb7e750bd8e3f90a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -352,7 +351,7 @@ GameObject:
   - component: {fileID: 6636453008952068987}
   - component: {fileID: 6646902072823447279}
   - component: {fileID: 6740957612707730815}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Wheel_rl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +401,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: 40b5b1cfe73d4444eb7e750bd8e3f90a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -448,7 +447,7 @@ GameObject:
   - component: {fileID: 6664505023318401805}
   - component: {fileID: 6635051968125326169}
   - component: {fileID: 6647209590631538781}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +531,7 @@ GameObject:
   - component: {fileID: 6636471566155257321}
   - component: {fileID: 6647229856070174729}
   - component: {fileID: 6741196198909489875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_Wheel_fr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: 40b5b1cfe73d4444eb7e750bd8e3f90a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -628,7 +627,7 @@ GameObject:
   - component: {fileID: 6664483413006656125}
   - component: {fileID: 6635131101635831301}
   - component: {fileID: 6646909457551224785}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_SteeringW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +712,7 @@ GameObject:
   - component: {fileID: 6645314869229237297}
   - component: {fileID: 6669702059601158299}
   - component: {fileID: 647392937554303804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SM_PolygonCity_Veh_Car_Small_01
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -770,7 +769,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd41db2cdb4e66e4985303e1287ab101, type: 2}
+  - {fileID: 2100000, guid: 2d9674097da42b2448220c5e2805bb27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -819,6 +818,6 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 114
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
